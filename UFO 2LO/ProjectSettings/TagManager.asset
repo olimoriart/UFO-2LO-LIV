@@ -38,6 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: bg
+    uniqueID: 4242370971
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: "d\u017Cemo ufolud"
+    uniqueID: 4220509383
     locked: 0
