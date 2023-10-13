@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+
     Rigidbody2D rb2d;
     public int force;
     void Start()
