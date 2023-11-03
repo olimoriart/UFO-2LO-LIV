@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 6804028287530263037}
   - component: {fileID: 3547173224824474435}
   - component: {fileID: -1033032727336292597}
+  - component: {fileID: 7361667678733838319}
+  - component: {fileID: -2806986183356753787}
   m_Layer: 0
   m_Name: The_Zero_Point_-_Object_-_Fortnite 1 (2)
   m_TagString: Pickup
@@ -120,3 +122,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 5.12
+--- !u!114 &7361667678733838319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465280613563459538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b40bbfbf97603046aeae21329fb0fef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2806986183356753787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465280613563459538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b40bbfbf97603046aeae21329fb0fef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
