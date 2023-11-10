@@ -15,19 +15,20 @@ public class NewBehaviourScript : MonoBehaviour
     float count = 0;
     private AudioSource audioSource;
     public AudioClip coinSound;
-	public AudioClip backgroundAudio;
-	void Start()
+    public AudioClip backgroundAudio;
+    public AudioClip collisionSound;
+    void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
         audioSource.PlayOneShot(backgroundAudio);
-		audioSource.loop = true;
+        audioSource.loop = true;
 
 
-	}
+    }
 
-	// Update is called once per frame
-	void Update()
+    // Update is called once per frame
+    void Update()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
@@ -53,6 +54,13 @@ public class NewBehaviourScript : MonoBehaviour
         if (count == 4)
         {
             winText.gameObject.SetActive(true);
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "uderza")
+        {
+            audioSource.PlayOneShot(collisionSound);
         }
     }
 }
